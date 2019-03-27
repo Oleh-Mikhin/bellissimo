@@ -214,7 +214,10 @@ main .featuresc{
     margin: 20px 10px;
 }
 
-
+main .featuresc {
+    display:flex;
+    text-align: center;
+}
 
 main .featuresb{
     padding-left: 75px;
@@ -225,7 +228,11 @@ main .featuresb{
     margin: 20px 10px;
 }
 
+main .featuresb {
+    display:flex;
+    text-align: center;
 
+}
 
 /* PREFOOTER */
 
