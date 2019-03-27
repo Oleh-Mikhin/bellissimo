@@ -28,6 +28,16 @@ header .logo {
     margin: 20px 10px;
 }
 
+header .logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+header .logo {
+    text-decoration: underline;
+}
+
 header .banner {
     background-image: url(../img/header-background.jpg);
     min-height: 500px;
@@ -58,52 +68,5 @@ header .banner .button-container {
     margin-bottom: 50px;
 }
 
-.product-card {
-    border: 1px solid black;
-}
-
-.product-card h3,
-.product-card p {
-    padding: 0 5px;
-}
-
-.product-card img {
-    display: block;
-    width: 100%;
-}
-
-.product-card .button-container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.product-card .button-container .button {
-    padding: 8px 32px;
-}
 
 
-
-.button {
-    background-color: orange;
-    border: none;
-    color: orange;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    background-color: orange;
-    color: black;
-    border: 2px solid black;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.button:hover {
-    background-color: brown;
-    color: white;
-}
