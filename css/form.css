@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan|Crimson+Text');
+
+:root {
+    --main-color: black;
+    --secondary-color: white;
+    font-family: 'Crimson Text', sans-serif;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+h1, h2, h3, p, div, nav {
+    margin: 0;
+    padding: 0;
+}
+
+header .logo {
+    font-family: 'Baloo Chettan', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px 10px;
+}
+header .banner {
+    background-image: url(../img/header-background.jpg);
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    color:white;
+}
+header .logo  {
+    list-style-type: none;
+}
+
+header .logo  {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+header .menu:hover {
+    text-decoration: underline;
+}
+
+header .banner .button-container {
+    margin-bottom: 50px;
+}
+
+.product-card {
+    border: 1px solid black;
+}
+
+.product-card h3, 
+.product-card p {
+    padding: 0 5px;
+}
+
+.product-card img {
+    display: block;
+    width: 100%;
+}
+
+.product-card .button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-card .button-container .button {
+    padding: 8px 32px;
+}
+
+
+
+.button {
+    background-color: orange;
+    border: none;
+    color: orange;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: orange; 
+    color: black; 
+    border: 2px solid black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: brown;
+    color: white;
+}

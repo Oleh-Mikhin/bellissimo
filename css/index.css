@@ -121,6 +121,8 @@ header .banner .button-container {
     background-color: orange; 
     color: black; 
     border: 2px solid black;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .button:hover {
@@ -132,6 +134,17 @@ header .banner .button-container {
 /*     MAIN    */
 
 
+main .dishes h3 {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+
 main .burger {
     background-size: cover;
     background-position: center;
@@ -139,6 +152,12 @@ main .burger {
     align-items: center;
     justify-content: flex-end;
     flex-direction: column;
+}
+main .burger h4 {
+    color: var(--secondary-color);
+    font-size: 1.07rem;
+    font-family: 'Germania One', sans-serif;
+    justify-content: space-around;
 }
 
 
@@ -151,6 +170,12 @@ main .steak {
     flex-direction: column;
 }
 
+main .steak h4 {
+    color: var(--secondary-color);
+    font-size: 1.07rem;
+    font-family: 'Germania One', sans-serif;
+    justify-content: space-around;
+}
 
 main .quotes {
     background-image: url(../img/chef.jpg);
@@ -220,12 +245,14 @@ main .call {
 
 main .ccall {
     font-family: 'Baloo Chettan', sans-serif;
-    text-align: center;
+    text-align: left;
     margin: 20px 10px;
     color:white;
     display:flex;
-    justify-content:center;
+    justify-content:flex-start;
     align-items:center;
+    font-size: 2.5rem;
+    color:white;
 }
 
 
