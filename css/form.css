@@ -11,7 +11,12 @@ body {
     margin: auto;
 }
 
-h1, h2, h3, p, div, nav {
+h1,
+h2,
+h3,
+p,
+div,
+nav {
     margin: 0;
     padding: 0;
 }
@@ -22,6 +27,7 @@ header .logo {
     text-align: center;
     margin: 20px 10px;
 }
+
 header .banner {
     background-image: url(../img/header-background.jpg);
     min-height: 500px;
@@ -31,13 +37,14 @@ header .banner {
     align-items: center;
     justify-content: flex-end;
     flex-direction: column;
-    color:white;
+    color: white;
 }
-header .logo  {
+
+header .logo {
     list-style-type: none;
 }
 
-header .logo  {
+header .logo {
     text-decoration: none;
     text-transform: uppercase;
     color: var(--main-color);
@@ -55,7 +62,7 @@ header .banner .button-container {
     border: 1px solid black;
 }
 
-.product-card h3, 
+.product-card h3,
 .product-card p {
     padding: 0 5px;
 }
@@ -89,8 +96,8 @@ header .banner .button-container {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     cursor: pointer;
-    background-color: orange; 
-    color: black; 
+    background-color: orange;
+    color: black;
     border: 2px solid black;
     text-decoration: none;
     text-transform: uppercase;

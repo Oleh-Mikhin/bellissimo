@@ -11,7 +11,12 @@ body {
     margin: auto;
 }
 
-h1, h2, h3, p, div, nav {
+h1,
+h2,
+h3,
+p,
+div,
+nav {
     margin: 0;
     padding: 0;
 }
@@ -67,8 +72,9 @@ header .banner h2 {
     font-family: 'Germania One', sans-serif;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
+
 header .banner h4 {
     color: var(--secondary-color);
     font-size: 1.07rem;
@@ -84,7 +90,7 @@ header .banner .button-container {
     border: 1px solid black;
 }
 
-.product-card h3, 
+.product-card h3,
 .product-card p {
     padding: 0 5px;
 }
@@ -118,8 +124,8 @@ header .banner .button-container {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     cursor: pointer;
-    background-color: orange; 
-    color: black; 
+    background-color: orange;
+    color: black;
     border: 2px solid black;
     text-decoration: none;
     text-transform: uppercase;
@@ -132,7 +138,6 @@ header .banner .button-container {
 
 
 /*     MAIN    */
-
 
 main .dishes h3 {
     background-size: cover;
@@ -153,6 +158,7 @@ main .burger {
     justify-content: flex-end;
     flex-direction: column;
 }
+
 main .burger h4 {
     color: var(--secondary-color);
     font-size: 1.07rem;
@@ -192,11 +198,11 @@ main .chef {
     font-family: 'Baloo Chettan', sans-serif;
     text-align: left;
     margin: 20px 10px;
-    color:white;
+    color: white;
 }
 
 
-main .our{
+main .our {
     font-family: 'Baloo Chettan', sans-serif;
     font-size: 2rem;
     text-align: center;
@@ -205,37 +211,36 @@ main .our{
 
 
 
-main .featuresc{
+main .featuresc {
     padding-left: 75px;
     padding-top: 50px;
-        font-family: 'Baloo Chettan', sans-serif;
+    font-family: 'Baloo Chettan', sans-serif;
     font-size: 1.1rem;
     text-align: center;
     margin: 20px 10px;
 }
 
 main .featuresc {
-    display:flex;
+    display: flex;
     text-align: center;
 }
 
-main .featuresb{
+main .featuresb {
     padding-left: 75px;
     padding-top: 50px;
-        font-family: 'Baloo Chettan', sans-serif;
+    font-family: 'Baloo Chettan', sans-serif;
     font-size: 1.1rem;
     text-align: center;
     margin: 20px 10px;
 }
 
 main .featuresb {
-    display:flex;
+    display: flex;
     text-align: center;
 
 }
 
 /* PREFOOTER */
-
 
 main .call {
     background-image: url(../img/call.jpg);
@@ -254,12 +259,12 @@ main .ccall {
     font-family: 'Baloo Chettan', sans-serif;
     text-align: left;
     margin: 20px 10px;
-    color:white;
-    display:flex;
-    justify-content:flex-start;
-    align-items:center;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     font-size: 2.5rem;
-    color:white;
+    color: white;
 }
 
 
@@ -280,14 +285,16 @@ main .footer {
 }
 
 
+
 main .ffooter {
     font-family: 'Baloo Chettan', sans-serif;
     text-align: center;
     margin: 20px 10px;
-    color:white;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
 }
 
 
