@@ -269,6 +269,20 @@ main .ccall {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* FOOTER */
 
 main .footer {
@@ -290,12 +304,87 @@ main .ffooter {
     font-family: 'Baloo Chettan', sans-serif;
     text-align: center;
     margin: 20px 10px;
+    margin-top: 100px;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
 }
+
+
+main .get-html-ajax {
+    font-family: 'Baloo Chettan', sans-serif;
+    text-align: center;
+    margin: 20px 10px;
+    color: black;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main .get-html-ajax {
+    padding: 8px 32px;
+}
+
+
+
+main .get-html-ajax {
+    background-color: orange;
+    border: none;
+    color: orange;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: orange;
+    color: black;
+    border: 2px solid black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main .get-html-ajax:hover {
+    background-color: brown;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -337,7 +426,6 @@ footer .menu li a:hover {
 
 
 footer .banner {
-    background-image: url(../img/post.jpg);
     min-height: 100px;
     background-size: cover;
     background-position: center;
@@ -346,3 +434,6 @@ footer .banner {
     justify-content: flex-end;
     flex-direction: column;
 }
+
+
+

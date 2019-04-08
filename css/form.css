@@ -67,3 +67,41 @@ header .menu:hover {
 header .banner .button-container {
     margin-bottom: 50px;
 }
+
+
+
+.input .button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input .button-container {
+    padding: 8px 32px;
+}
+
+
+
+.input .button-container {
+    background-color: orange;
+    border: none;
+    color: orange;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: orange;
+    color: black;
+    border: 2px solid black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.input .button-container:hover {
+    background-color: brown;
+    color: white;
+}
