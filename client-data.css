@@ -1,0 +1,12 @@
+:root {
+    --main-color: black;
+    --secondary-color: white;
+    font-family: 'Crimson Text', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+.p {
+    font-family: 'Baloo Chettan', sans-serif;
+}
