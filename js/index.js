@@ -15,7 +15,8 @@ function getHtmlAjax() {
         document.querySelector('.html-placeholder')
         .innerHTML = xhr.responseText;
     }
-    xhr.open('GET' , 'client-data.html', true);
+  } 
+  xhr.open('GET' , 'client-data.html', true);
     xhr.send();
-}
+
 }

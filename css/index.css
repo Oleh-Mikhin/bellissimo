@@ -4,6 +4,8 @@
     --main-color: black;
     --secondary-color: white;
     font-family: 'Crimson Text', sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 body {
@@ -159,7 +161,7 @@ main .burger {
     flex-direction: column;
 }
 
-main .burger h4 {
+main .burger h3 {
     color: var(--secondary-color);
     font-size: 1.07rem;
     font-family: 'Germania One', sans-serif;
@@ -176,7 +178,7 @@ main .steak {
     flex-direction: column;
 }
 
-main .steak h4 {
+main .steak h3 {
     color: var(--secondary-color);
     font-size: 1.07rem;
     font-family: 'Germania One', sans-serif;

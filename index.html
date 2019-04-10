@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bellissimo</title>
     <link rel="stylesheet" href="css/index.css" </head>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <body>
 
         <header>
@@ -29,17 +29,61 @@
             </div>
         </header>
         <main>
+            
             <div class="dishes">
                 <h3>Our Dishes<a name="dishes"></a></h3>
             </div>
-            <div class="burger">
-                <img src="img/burger.jpg" alt="burger" width="500" heigh="500">
-                <h3>Burger</h3>
+            
+            
+            
+            
+            
+            
+             <div id="carouselProducts" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselProducts" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselProducts" data-slide-to="1"></li>
+        
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="1500">
+                        <img src="img/burger.jpg" class="d-block w-100" alt="burger" width="25" height="450">
+                    </div>
+                    <div class="carousel-item" data-interval="1500">
+                        <img src="img/steak.jpg" class="d-block w-100" alt="steak" width="25" height="450">
+                    </div>
+                   
+                </div>
+                <a class="carousel-control-prev" href="#carouselProducts" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                 </a>
+                <a class="carousel-control-next" href="#carouselProducts" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                 </a>
             </div>
-            <div class="steak">
-                <img src="img/steak.jpg" alt="steak" width="500" heigh="500">
-                <h3>Steak</h3>
-            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             <a name="quotes"></a>
             <div class="quotes">
                 <div class="chef">
@@ -63,7 +107,7 @@
                 </div>
             </div>
             <div class="gap">
-                <img src="img/gap.png" alt="gap">
+                <img src="img/gap.png" alt="gap" width="100%">
             </div>
             <div class="footer">
                 
@@ -113,6 +157,9 @@
             </nav>
         </footer>
       <script src="js/index.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 
 </html>
