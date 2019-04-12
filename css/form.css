@@ -68,8 +68,6 @@ header .banner .button-container {
     margin-bottom: 50px;
 }
 
-
-
 .input .button-container {
     display: flex;
     justify-content: center;
@@ -78,8 +76,6 @@ header .banner .button-container {
 .input .button-container {
     padding: 8px 32px;
 }
-
-
 
 .input .button-container {
     background-color: orange;
