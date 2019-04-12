@@ -61,7 +61,7 @@ header .logo {
 }
 
 header .menu:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 header .banner .button-container {
