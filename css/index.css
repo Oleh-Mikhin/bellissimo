@@ -226,8 +226,6 @@ main .featuresc {
     font-family: 'Baloo Chettan', sans-serif;
     font-size: 1.1rem;
     margin: 20px 10px;
-    height: 100%;
-    width: 100%;
 }
 
 main .featuresc {
@@ -241,8 +239,6 @@ main .featuresb {
     font-size: 1.1rem;
     text-align: center;
     margin: 20px 10px;
-    height: 100%;
-    width: 100%;
 }
 
 main .featuresb {
@@ -392,4 +388,6 @@ footer .banner {
 .html-placeholder {
     display: flex;
     justify-content: center;
+    font-family: 'Baloo Chettan', sans-serif;
+    font-size: 1.5rem;
 }
